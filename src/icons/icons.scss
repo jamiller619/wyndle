@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'weather-icons';
+  src: url('./weather-icons.woff') format('woff');
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.iconSmall {
+  width: 14px;
+  height: 14px;
+  fill: white;
+}
+
+.weatherIcon {
+  font-family: 'weather-icons';
+  font-size: 42px;
+  display: block;
+  color: white;
+  margin: 1.5rem 0;
+}

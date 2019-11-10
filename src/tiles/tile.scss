@@ -1,0 +1,62 @@
+.tile {
+  position: relative;
+  padding: 2rem 1rem;
+  font-family: 'maison-neue-mono';
+  font-size: 1.2rem;
+}
+
+.backdrop {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  fill: black;
+  pointer-events: none;
+
+  rect {
+    transform-origin: center;
+    // x: 7;
+    // y: 62;
+    // width: 86px;
+    // height: 35px;
+    opacity: 0.3;
+  }
+}
+
+.content {
+  display: flex;
+  height: 25vh;
+  // height: calc(100% - 1rem);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-left: 1px solid rgba(white, 0.2);
+  flex: 1;
+  padding: 1rem 0;
+
+  &:first-child {
+    border-left: none;
+  }
+}
+
+.title {
+  padding: 0 1rem;
+  display: flex;
+  width: 100%;
+
+  h3 {
+    flex: 1;
+    line-height: 1.3em;
+  }
+
+  .closeIcon {
+    text-align: right;
+  }
+}

@@ -1,0 +1,42 @@
+$borderColor: hsla(0, 0%, 50%, 0.75);
+$border: 2px solid $borderColor;
+
+.header {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-bottom: $border;
+
+  font-size: 18px;
+
+  background: rgba(white, 0.65);
+  color: black;
+
+  li {
+    border-top: $border;
+
+    & > div {
+      padding: 1rem;
+    }
+  }
+
+  input {
+    font-family: 'maison-neue';
+    font-size: 18px;
+
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1rem;
+
+    &::placeholder {
+      color: hsl(0, 100%, 38%);
+    }
+  }
+}

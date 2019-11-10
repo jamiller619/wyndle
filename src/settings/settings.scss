@@ -1,0 +1,32 @@
+@import '/shared/colors.scss';
+
+.blur {
+  filter: blur(10px);
+  // pointer-events: none;
+}
+
+.trigger {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+}
+
+.container {
+  position: fixed;
+  top: 20px;
+  left: 5px;
+  right: 0;
+  bottom: 20px;
+  transform: translate3d(-30px, 0, -20px);
+  width: 80vw;
+  padding-top: 6rem;
+  padding-right: 50vw;
+  background: linear-gradient($color-primary, #f8855e);
+  // pointer-events: none;
+  z-index: -1;
+
+  &.open {
+    z-index: 0;
+    // pointer-events: all;
+  }
+}

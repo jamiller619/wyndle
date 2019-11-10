@@ -1,0 +1,13 @@
+@import 'typography/typography.scss';
+@import 'page/page.scss';
+
+body,
+html {
+  overflow: hidden;
+}
+
+body {
+  perspective: 300px;
+  background: #333333;
+  color: white;
+}

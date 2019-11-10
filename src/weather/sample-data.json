@@ -1,0 +1,413 @@
+{
+  "date": 1570841289755,
+  "current": {
+    "temp": "64°",
+    "feelsLike": "64°",
+    "time": ["8", "PM"],
+    "summary": "Clear",
+    "icon": "clear-night"
+  },
+  "daily": [
+    {
+      "high": "79°",
+      "low": "58°",
+      "time": ["12", "AM"],
+      "summary": "Clear throughout the day.",
+      "icon": "clear-day"
+    },
+    {
+      "high": "83°",
+      "low": "65°",
+      "time": ["12", "AM"],
+      "summary": "Partly cloudy throughout the day.",
+      "icon": "clear-day"
+    },
+    {
+      "high": "84°",
+      "low": "70°",
+      "time": ["12", "AM"],
+      "summary": "Partly cloudy throughout the day.",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "high": "85°",
+      "low": "69°",
+      "time": ["12", "AM"],
+      "summary": "Possible light rain in the morning and afternoon.",
+      "icon": "rain"
+    },
+    {
+      "high": "84°",
+      "low": "73°",
+      "time": ["12", "AM"],
+      "summary": "Light rain in the evening and overnight.",
+      "icon": "rain"
+    },
+    {
+      "high": "85°",
+      "low": "59°",
+      "time": ["12", "AM"],
+      "summary": "Light rain in the morning.",
+      "icon": "rain"
+    },
+    {
+      "high": "73°",
+      "low": "55°",
+      "time": ["12", "AM"],
+      "summary": "Overcast throughout the day.",
+      "icon": "cloudy"
+    },
+    {
+      "high": "76°",
+      "low": "63°",
+      "time": ["12", "AM"],
+      "summary": "Overcast throughout the day.",
+      "icon": "cloudy"
+    }
+  ],
+  "hourly": [
+    {
+      "temp": "66°",
+      "feelsLike": "66°",
+      "time": ["8", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "64°",
+      "feelsLike": "64°",
+      "time": ["9", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "63°",
+      "feelsLike": "64°",
+      "time": ["10", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    },
+    {
+      "temp": "65°",
+      "feelsLike": "65°",
+      "time": ["11", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "65°",
+      "feelsLike": "65°",
+      "time": ["12", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "64°",
+      "feelsLike": "64°",
+      "time": ["1", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "63°",
+      "feelsLike": "63°",
+      "time": ["2", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "62°",
+      "feelsLike": "63°",
+      "time": ["3", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "61°",
+      "feelsLike": "62°",
+      "time": ["4", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "61°",
+      "feelsLike": "61°",
+      "time": ["5", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "60°",
+      "feelsLike": "60°",
+      "time": ["6", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    },
+    {
+      "temp": "59°",
+      "feelsLike": "59°",
+      "time": ["7", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    },
+    {
+      "temp": "60°",
+      "feelsLike": "61°",
+      "time": ["8", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "65°",
+      "feelsLike": "65°",
+      "time": ["9", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "71°",
+      "feelsLike": "72°",
+      "time": ["10", "AM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "76°",
+      "feelsLike": "76°",
+      "time": ["11", "AM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "79°",
+      "feelsLike": "79°",
+      "time": ["12", "PM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "81°",
+      "feelsLike": "82°",
+      "time": ["1", "PM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "82°",
+      "feelsLike": "82°",
+      "time": ["2", "PM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "82°",
+      "feelsLike": "82°",
+      "time": ["3", "PM"],
+      "summary": "Clear",
+      "icon": "clear-day"
+    },
+    {
+      "temp": "81°",
+      "feelsLike": "82°",
+      "time": ["4", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "80°",
+      "feelsLike": "81°",
+      "time": ["5", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "78°",
+      "feelsLike": "78°",
+      "time": ["6", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "75°",
+      "feelsLike": "75°",
+      "time": ["7", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "73°",
+      "feelsLike": "73°",
+      "time": ["8", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "71°",
+      "feelsLike": "72°",
+      "time": ["9", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "71°",
+      "feelsLike": "71°",
+      "time": ["10", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "70°",
+      "feelsLike": "71°",
+      "time": ["11", "PM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "70°",
+      "feelsLike": "70°",
+      "time": ["12", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "69°",
+      "feelsLike": "70°",
+      "time": ["1", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "69°",
+      "feelsLike": "70°",
+      "time": ["2", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "69°",
+      "feelsLike": "69°",
+      "time": ["3", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "68°",
+      "feelsLike": "69°",
+      "time": ["4", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "67°",
+      "feelsLike": "68°",
+      "time": ["5", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "66°",
+      "feelsLike": "67°",
+      "time": ["6", "AM"],
+      "summary": "Clear",
+      "icon": "clear-night"
+    },
+    {
+      "temp": "66°",
+      "feelsLike": "67°",
+      "time": ["7", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    },
+    {
+      "temp": "67°",
+      "feelsLike": "68°",
+      "time": ["8", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "71°",
+      "feelsLike": "72°",
+      "time": ["9", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "76°",
+      "feelsLike": "77°",
+      "time": ["10", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "80°",
+      "feelsLike": "83°",
+      "time": ["11", "AM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "82°",
+      "feelsLike": "85°",
+      "time": ["12", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "83°",
+      "feelsLike": "86°",
+      "time": ["1", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "83°",
+      "feelsLike": "86°",
+      "time": ["2", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "83°",
+      "feelsLike": "85°",
+      "time": ["3", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "82°",
+      "feelsLike": "84°",
+      "time": ["4", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "80°",
+      "feelsLike": "83°",
+      "time": ["5", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "79°",
+      "feelsLike": "80°",
+      "time": ["6", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-day"
+    },
+    {
+      "temp": "77°",
+      "feelsLike": "78°",
+      "time": ["7", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    },
+    {
+      "temp": "75°",
+      "feelsLike": "76°",
+      "time": ["8", "PM"],
+      "summary": "Partly Cloudy",
+      "icon": "partly-cloudy-night"
+    }
+  ]
+}

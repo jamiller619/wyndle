@@ -1,0 +1,12 @@
+node_modules
+logs
+*.logs
+*.log
+coverage
+*.lcov
+.npm
+.yarn-integrity
+.env*
+.cache
+dist
+*.code-workspace
