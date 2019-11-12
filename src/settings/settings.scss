@@ -2,7 +2,6 @@
 
 .blur {
   filter: blur(10px);
-  // pointer-events: none;
 }
 
 .trigger {
@@ -22,11 +21,4 @@
   padding-top: 6rem;
   padding-right: 50vw;
   background: linear-gradient($color-primary, #f8855e);
-  // pointer-events: none;
-  z-index: -1;
-
-  &.open {
-    z-index: 0;
-    // pointer-events: all;
-  }
 }

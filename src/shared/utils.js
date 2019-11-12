@@ -7,6 +7,8 @@ export const classNames = (...classNames) => ({
   className: classNames.filter(className => className).join(' ')
 })
 
+export const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
+
 /**
  * Converts a Unix time into a JavaScript Date object
  *

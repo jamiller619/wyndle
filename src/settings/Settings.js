@@ -1,31 +1,16 @@
 import React, { useState, useRef, Fragment } from 'react'
 import anime from 'animejs'
+import { useDrag } from 'react-use-gesture'
 import SettingsContent from './SettingsContent'
 import Portal from '/shared/Portal'
+import { classNames, clamp } from '/shared/utils'
 import { MenuIcon, CloseIcon } from '/icons'
-
-import { useAnime } from '/anime'
-import { classNames } from '/shared/utils'
 
 import styles from './settings.scss'
 
-const easing = 'spring(0.8, 80, 100, 15)'
-
-const handleTriggerToggle = (setState, isOpen, appContainerRef) => e => {
-  // anime({
-  //   targets: appContainerRef.current,
-  //   // targets: e.target.closest(`.${styles.trigger}`),
-  //   scale: [1, 0.82, 1]
-  // })
-
-  setState({
-    isOpen: !isOpen
-  })
-}
-
-const Trigger = ({ isOpen, handleToggle }) => {
+const Trigger = ({ isOpen, handleToggle, ...props }) => {
   return (
-    <div className={styles.trigger} onClick={handleToggle}>
+    <div className={styles.trigger} onClick={handleToggle} {...props}>
       {isOpen ? <CloseIcon /> : <MenuIcon />}
     </div>
   )
@@ -33,41 +18,55 @@ const Trigger = ({ isOpen, handleToggle }) => {
 
 const Settings = ({ appContainerRef, triggerRef }) => {
   const settingsContainerRef = useRef()
-
   const [{ isOpen }, setState] = useState({
     isOpen: false
   })
 
-  useAnime(settingsContainerRef, {
-    easing,
-    translateX: isOpen ? 0 : -70,
-    translateZ: isOpen ? 0 : -30
-  })
+  const max = window.innerWidth * 0.78
+  const onDragOptions = {
+    delay: true
+  }
 
-  useAnime(appContainerRef, {
-    // easing,
-    easing: 'spring(0.4, 80, 100, 4)',
-    translateX: isOpen ? '80vw' : '0vw',
-    scale: [0.92, 1],
-    begin() {
-      if (!isOpen) appContainerRef.current.style.overflow = 'unset'
-    },
-    complete() {
-      if (!isOpen) appContainerRef.current.style.overflow = 'hidden'
+  const onDrag = ({ last, xy: [x], direction: [dirx] }) => {
+    if (last) {
+      const tx = dirx === 0 ? (isOpen ? 0 : max) : dirx > 0 ? max : 0
+
+      anime({
+        targets: appContainerRef.current,
+        easing: 'spring(0.8, 80, 100, 15)',
+        translateX: `${tx}px`,
+        scale: 1,
+        begin() {
+          setState({
+            isOpen: tx > 0
+          })
+        }
+      })
+    } else {
+      const tx = clamp(x - 40, 0, max)
+      const transform = `translateX(${tx}px) scale(0.98)`
+
+      appContainerRef.current.style.transform = transform
     }
-  })
+  }
+
+  const gestures = useDrag(onDrag, onDragOptions)
 
   return (
     <Fragment>
       <Portal to={triggerRef}>
         <Trigger
           isOpen={isOpen}
-          handleToggle={handleTriggerToggle(setState, isOpen, appContainerRef)}
+          {...gestures()}
+          onClick={e => {
+            e.stopPropagation()
+            setState({
+              isOpen: !isOpen
+            })
+          }}
         />
       </Portal>
-      <div
-        {...classNames(styles.container, isOpen && styles.open)}
-        ref={settingsContainerRef}>
+      <div className={styles.container} ref={settingsContainerRef}>
         <SettingsContent />
       </div>
     </Fragment>
