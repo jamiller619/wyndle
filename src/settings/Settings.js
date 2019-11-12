@@ -3,7 +3,7 @@ import anime from 'animejs'
 import { useDrag } from 'react-use-gesture'
 import SettingsContent from './SettingsContent'
 import Portal from '/shared/Portal'
-import { classNames, clamp } from '/shared/utils'
+import { clamp } from '/shared/utils'
 import { MenuIcon, CloseIcon } from '/icons'
 
 import styles from './settings.scss'
