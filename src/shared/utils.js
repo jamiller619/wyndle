@@ -9,6 +9,8 @@ export const classNames = (...classNames) => ({
 
 export const clamp = (value, min, max) => Math.max(min, Math.min(max, value))
 
+export const lerp = (start, end, alpha) => start * (1 - alpha) + end * alpha
+
 /**
  * Converts a Unix time into a JavaScript Date object
  *
